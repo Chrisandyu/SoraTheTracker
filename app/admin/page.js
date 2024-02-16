@@ -45,6 +45,8 @@ const Admin = () => {
         lat: lat,
         lng: lng,
       });
+
+      setCoords('');
   };
 
   const handleInputChange = (event) => {
