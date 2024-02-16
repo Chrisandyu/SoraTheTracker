@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <Link href="/" target="_blank" >Stream</Link>
+            <Link href="https://www.youtube.com/watch?v=mQGuT4EOats" target="_blank" >Stream</Link>
           </li>
           <li>
             <Link href="/about">About</Link>
