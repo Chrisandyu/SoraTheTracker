@@ -15,15 +15,17 @@ const Navbar = () => {
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <Link href="/">Stream</Link>
+            <Link href="/" target="_blank" >Stream</Link>
           </li>
           <li>
-            <Link href="https://www.youtube.com/@sorathetroll">Youtube</Link>
+            <Link href="https://www.youtube.com/@sorathetroll" target="_blank">Youtube</Link>
           </li>
           <li>
-            <Link href="/about" className="mr-10">About</Link>
+            <Link href="/about">About</Link>
           </li>
-          
+          <li>
+            <Link href="https://github.com/Chrisandyu/SoraTheTracker" target="_blank" className="mr-10">Github</Link>
+          </li>
         </ul>
       </div>
     </div>
