@@ -18,13 +18,13 @@ const Navbar = () => {
             <Link href="/" target="_blank" >Stream</Link>
           </li>
           <li>
-            <Link href="https://www.youtube.com/@sorathetroll" target="_blank">Youtube</Link>
-          </li>
-          <li>
             <Link href="/about">About</Link>
           </li>
-          <li>
-            <Link href="https://github.com/Chrisandyu/SoraTheTracker" target="_blank" className="mr-10">Github</Link>
+          <li className="hidden md:block">
+            <Link href="https://www.youtube.com/@sorathetroll" target="_blank">Youtube</Link>
+          </li>
+          <li className="hidden md:block">
+            <Link href="https://github.com/Chrisandyu/SoraTheTracker" target="_blank">Github</Link>
           </li>
         </ul>
       </div>
