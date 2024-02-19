@@ -25,6 +25,7 @@ const Navbar = () => {
           </li>
           <li className="hidden md:block">
             <Link href="https://github.com/Chrisandyu/SoraTheTracker" target="_blank">Github</Link>
+            
           </li>
         </ul>
       </div>
